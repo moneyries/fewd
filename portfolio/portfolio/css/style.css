@@ -1,0 +1,42 @@
+/* 
+Project Name: Portfolio
+Client: GA
+Author: Brian Ries
+Developer Brian Ries
+*/
+
+body {
+     margin: 20px;
+}
+
+header {
+     font-size: 20px;
+     text-align: left;
+     text-transform: uppercase;
+
+}
+
+
+body {
+     
+}
+
+img {
+     background: cover;
+}
+
+nav {
+     font-size: 15px; 
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.intro {
+     font-size: 12px;
+     color: red;
+}
+
+.dates {
+     font-size: 10px
+     text-transform: uppercase;
+}
