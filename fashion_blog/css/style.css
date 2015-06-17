@@ -77,29 +77,31 @@ nav a {
      font-size: 17px;
      margin-right: 10px;
      text-decoration: none;
-     border-bottom: 2px solid #EEE
+     border-bottom: 2px solid #EEE;
+
 }
 
 h1 a {
      color: red;
-     font-size: 40px;
+     font-size: 39px;
      text-decoration: none; 
 }
 
 h2 {
-     font-size: 28px;
+     font-size: 20px;
      margin: -15px 0px 10px 0px;
 }
 
 h2 a {
+     font-size: 27.5px;
      color: #444;
      text-decoration: none;
 }
 
 h3 {
-     color: #DDD;
-     font-size: 28px;
-     font-weight: 200;
+     color: #EEE;
+     font-size: 26px;
+     font-weight: 100;
      margin: 50px 0px 15px 0px;
 }
 
@@ -115,7 +117,8 @@ p {
 }
 
 article {
-     margin-bottom: 60px;
+     padding-bottom: 50px;
+     border-bottom: thin solid #EEE
 }
 
 hr {
@@ -126,6 +129,8 @@ hr {
 
 footer {
      color: #D00;
+     margin-top: 50px;
+     font-size: 14px;
 }
 
 footer a:hover {
@@ -137,4 +142,9 @@ footer a:hover {
      color: #EEE;
      float: left;
      line-height: 80%;
+     padding-right: 10px;
+}
+
+.copy {
+     color: #DDD;
 }
