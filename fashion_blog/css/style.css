@@ -59,17 +59,25 @@ body {
 /* LAYOUT                   
 /*******************************************/
 
-a {
+h4 a {
      color: #D00;
+     float: right;
+     font-weight: bold;
+     font-size: 14px;
+     text-decoration: none; 
 }
 
-a:hover {
+h4 a:hover {
      color: #A00;
+
 }
 
 nav a {
-     color: #DDD;
+     color: #EEE;
      font-size: 20px;
+     margin-right: 10px;
+     text-decoration: none;
+     border-bottom: 2px solid #EEE
 }
 
 h1 a {
@@ -78,12 +86,9 @@ h1 a {
      text-decoration: none; 
 }
 
-h1 a:hover {
-     color: red;
-}
-
 h2 {
      font-size: 30px;
+     margin: -30px 0px 5px 0px;
 }
 
 h2 a {
@@ -91,11 +96,18 @@ h2 a {
      text-decoration: none;
 }
 
-h2 a:hover {
-     color: #444;
+h3 {
+     color: #DDD;
+     font-size: 30px;
 }
 
-h3 {
-     color: #CCC;
-     font-size: 30px;
+p {
+     font-size: 15px;
+     color: #444;
+     float: top;
+}
+
+.intro {
+     font-size: 80px;
+     color: #EEE;
 }
